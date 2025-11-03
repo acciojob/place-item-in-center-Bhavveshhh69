@@ -4,8 +4,7 @@
   justify-content: center;        /* Centers horizontally */
   align-items: center;            /* Centers vertically */
   width: 100vw;                   /* Full viewport width */
-  height: 100vh;                  /* Full viewport height */
-  margin: 0;                      /* Removes default margins */
+  height: 100vh;                     /* Removes default margins */
 }
 
 /* The centered item */
