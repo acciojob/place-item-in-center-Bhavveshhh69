@@ -1,7 +1,16 @@
+/* The holder covers the entire viewport */
 .holder {
-  display: flex;                /* Enables Flexbox */
-  justify-content: center;      /* Centers horizontally */
-  align-items: center;          /* Centers vertically */
-  height: 100vh;                /* Optional: makes it fill screen height */
-  background-color: #f2f2f2;    /* Optional: just to visualize */
+  display: flex;                  /* Enables Flexbox */
+  justify-content: center;        /* Centers horizontally */
+  align-items: center;            /* Centers vertically */
+  width: 100vw;                   /* Full viewport width */
+  height: 100vh;                  /* Full viewport height */
+  margin: 0;                      /* Removes default margins */
+}
+
+/* The centered item */
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
